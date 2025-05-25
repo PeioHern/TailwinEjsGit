@@ -1,0 +1,32 @@
+_tailwind apuntes_
+
+-Tailwind CSS Cheat Sheet:
+https://www.creative-tim.com/twcomponents/cheatsheet/
+
+-space-y-5 = gap-5
+
+-justify-center / items-center (one is center horizontally and the other one is vertically, it depends whether is flex-col or flex-row)
+
+-example of grid in tailwind:
+
+(2 coulumns, each of 3 divs)
+<div class="grid grid-cols-2 gap-4">
+  <div class="bg-blue-200 p-4">Item 1</div>
+  <div class="bg-blue-300 p-4">Item 2</div>
+  <div class="bg-blue-200 p-4">Item 3</div>
+  <div class="bg-blue-300 p-4">Item 4</div>
+  <div class="bg-blue-200 p-4">Item 5</div>
+  <div class="bg-blue-300 p-4">Item 6</div>
+</div>
+
+(4 rows, each of two 2 divs)
+<div class="grid grid-rows-4 grid-cols-2 gap-4">
+  <div class="bg-green-200 p-4">Item 1</div>
+  <div class="bg-green-300 p-4">Item 2</div>
+  <div class="bg-green-200 p-4">Item 3</div>
+  <div class="bg-green-300 p-4">Item 4</div>
+  <div class="bg-green-200 p-4">Item 5</div>
+  <div class="bg-green-300 p-4">Item 6</div>
+  <div class="bg-green-200 p-4">Item 7</div>
+  <div class="bg-green-300 p-4">Item 8</div>
+</div>

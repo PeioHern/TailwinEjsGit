@@ -1,0 +1,132 @@
+
+  #container {
+    width: 520px;
+    height: 500px;
+    border: solid 1px;
+    position: absolute;
+  }
+  
+  .box {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 107, 132);
+    font-size: 20px;
+    position: absolute;
+    padding: 5px;
+    
+  }
+
+
+
+
+
+  
+
+
+
+  
+  #container:hover .box {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(93, 93, 255);
+    color: yellow;
+
+    font-size: 18px;
+    position: absolute;
+    transform: rotate(270deg); /*rotacion*/
+  }
+
+
+
+
+
+
+
+
+
+
+
+  
+  .ex01 .box {
+    left: 10px;
+    top: 10px;
+    transition-duration: 4s;
+    
+  }
+  
+  #container:hover .ex01 .box {
+    left: 450px;
+    top: 80px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  .ex02 .box {
+    left: 10px;
+    top: 130px;
+    transition-duration: 3s;
+    
+  }
+  
+  #container:hover .ex02 .box {
+    left: 450px;
+    top: 10px;
+  }
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  .ex03 .box {
+    left: 10px;
+    top: 250px;
+    transition-duration: 2s;
+    
+  }
+
+
+  #container:hover .ex03 .box {
+    left: 450px;
+    top: 220px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  .ex04 .box {
+    left: 10px;
+    top: 370px;
+    transition-duration: 1s;
+  }
+  
+  #container:hover .ex04 .box {
+    left: 450px;
+    top: 150px;
+  }

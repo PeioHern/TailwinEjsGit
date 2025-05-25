@@ -1,0 +1,41 @@
+_Responsive Card Grid_
+
+sm=small (phone)
+lg=large (pc)
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Cards</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 p-6">
+
+  <div class="max-w-6xl mx-auto">
+    <h1 class="text-3xl font-bold mb-6 text-center">Our Services</h1>
+    
+    <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+      <!-- Card 1 -->
+      <div class="bg-white rounded-2xl shadow p-6 hover:shadow-lg transition">
+        <h2 class="text-xl font-semibold mb-2">Web Development</h2>
+        <p class="text-gray-600">We build responsive and modern websites using the latest technologies.</p>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="bg-white rounded-2xl shadow p-6 hover:shadow-lg transition">
+        <h2 class="text-xl font-semibold mb-2">App Design</h2>
+        <p class="text-gray-600">Our UI/UX designers create beautiful and user-friendly mobile interfaces.</p>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="bg-white rounded-2xl shadow p-6 hover:shadow-lg transition">
+        <h2 class="text-xl font-semibold mb-2">SEO Optimization</h2>
+        <p class="text-gray-600">Boost your online visibility and search rankings with our SEO strategies.</p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
